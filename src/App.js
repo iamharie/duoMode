@@ -4,7 +4,9 @@ import "./styles.css"
 
 export default function App() {
   return(
+    <div className="container">
     <Header/>
+    </div>
   )
 }
 
@@ -21,8 +23,8 @@ function negative(){
 
   return(
     <div>
-<button className="btn" onClick={positive}>Increase</button>
 <p>{count}</p>
+<button className="btn" onClick={positive}>Increase</button>
 <button className="btn" onClick={negative}>Decrease</button>
     </div>
   )

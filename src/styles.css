@@ -1,9 +1,32 @@
+.container{
+    width: 600px;
+    margin: 200px auto;
+    background-color: blanchedalmond;
+    padding: 30px;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+
 .btn{
     display:block;
     margin: 0 auto;
-    background-color: antiquewhite;
+    background-color: azure;
+    width: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid black;
+    cursor: pointer;
+    
+}
+.btn:last-child{
+    margin-top: 20px;
+    
+}
+.btn:hover{
+    background-color: wheat;
 }
 p{
+    font-size: 50px;
     text-align: center;
 }
 
