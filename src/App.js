@@ -4,7 +4,7 @@ import Control from "./contElements";
 
 export default function App() {
   return (
-    <div className="container">
+    <div>
       <Header />
       <Control />
     </div>
@@ -22,8 +22,8 @@ function Header() {
   }
 
   return (
-    <div>
-      <p>{count}</p>
+    <div className="container">
+      <p className="counter">{count}</p>
       <button className="btn" onClick={positive}>
         Increase
       </button>
