@@ -24,7 +24,7 @@ function negative(){
   return(
     <div>
 <p>{count}</p>
-<button className="btn" onClick={positive}>Increase</button>
+<button className="btn" onVisit={positive}>Increase</button>
 <button className="btn" onClick={negative}>Decrease</button>
     </div>
   )
