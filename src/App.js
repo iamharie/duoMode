@@ -1,39 +1,14 @@
 import { useState } from "react";
 import "./styles.css";
 import Control from "./contElements";
-const arr = [
-  { id: 1, name: "bag" },
-  { id: 2, name: "box" },
-];
+import One from "./One";
+
 export default function App() {
   return (
     <div>
-      <One />
+      {/* <One /> */}
       <Header />
-      <Control />
-    </div>
-  );
-}
-
-// counter
-
-function One() {
-  return (
-    <div>
-      {arr.map((mov) => (
-        <Item name={mov} key={mov.id} />
-      ))}
-
-      {/* <Item name={arr.map((mov) => mov)} /> */}
-    </div>
-  );
-}
-
-function Item({ name }) {
-  return (
-    <div>
-      <p>{name.id}</p>
-      <p>{name.name}</p>
+      {/* <Control /> */}
     </div>
   );
 }
@@ -60,5 +35,3 @@ function Header() {
     </div>
   );
 }
-
-//
